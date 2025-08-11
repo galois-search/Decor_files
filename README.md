@@ -51,6 +51,8 @@ The `scripts` directory contains an `example.py` file. To run the example, use:
 ```
 python3 -m scripts.example
 ```
-
-## License
-This project is licensed under the Apache 2.0 License. See the LICENSE file for more details.
+# File Description
+- `NavIc_code_generator.py` and `GPS_code_generator.py` are the main file to generate PRN codes for GPS L1 C/A and for NavIC L5 and S band.
+- decor is used in both this files to check whether codes are getting optimized or not.
+- `acr_ccr_function.py` is to check the acr and ccr value before optimization and after optimization.
+- All other `.txt` files contains the output of NavIC and GPS codes.
